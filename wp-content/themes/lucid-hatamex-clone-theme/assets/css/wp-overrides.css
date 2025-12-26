@@ -1,0 +1,29 @@
+html {
+	margin-top: 0 !important;
+}
+
+body {
+	margin: 0;
+	background: var(--color-black);
+}
+
+/* Next.js font variables (on reference site these live on <body> via generated classNames). */
+body {
+	--font-plus-jakarta-sans: "plusJakartaSans", "plusJakartaSans Fallback";
+	--font-rinter: "rinter", "rinter Fallback";
+	--font-source-code-pro: "Source Code Pro", "Source Code Pro Fallback";
+}
+
+/* Remove block theme wrapper spacing that doesn't exist on the reference site. */
+:where(.wp-site-blocks) {
+	padding: 0;
+}
+
+:where(.wp-site-blocks) > * {
+	margin: 0;
+}
+
+/* Prevent the admin bar from offsetting the page during local builds. */
+#wpadminbar {
+	display: none !important;
+}

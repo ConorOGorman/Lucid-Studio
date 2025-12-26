@@ -1,0 +1,702 @@
+{
+  "url": "https://www.hatamex.agency/en",
+  "title": "Hatamex Digital Agency – High-end Web Design, Branding & Digital Solutions | Hatamex Digital Agency",
+  "stylesheets": [
+    "https://www.hatamex.agency/_next/static/chunks/23679094b9cd398d.css",
+    "https://www.hatamex.agency/_next/static/chunks/9e31d20932476e36.css"
+  ],
+  "rootVars": [
+    {
+      "name": "--tracking-tight",
+      "value": "-.025em"
+    },
+    {
+      "name": "--color-gray-text-2",
+      "value": "#4e4e4e"
+    },
+    {
+      "name": "--tw-ring-offset-shadow",
+      "value": "0 0 #0000"
+    },
+    {
+      "name": "--color-neutral-100",
+      "value": "lab(96.52% -.0000298023 .0000119209)"
+    },
+    {
+      "name": "--tw-inset-shadow-alpha",
+      "value": "100%"
+    },
+    {
+      "name": "--tw-ring-shadow",
+      "value": "0 0 #0000"
+    },
+    {
+      "name": "--text-2xl",
+      "value": "1.5rem"
+    },
+    {
+      "name": "--toast-close-button-start",
+      "value": "0"
+    },
+    {
+      "name": "--aspect-video",
+      "value": "16/9"
+    },
+    {
+      "name": "--blur-lg",
+      "value": "16px"
+    },
+    {
+      "name": "--tw-drop-shadow-alpha",
+      "value": "100%"
+    },
+    {
+      "name": "--safe-area-inset-right",
+      "value": "0px"
+    },
+    {
+      "name": "--text-lg",
+      "value": "1.125rem"
+    },
+    {
+      "name": "--default-transition-timing-function",
+      "value": "cubic-bezier(.4,0,.2,1)"
+    },
+    {
+      "name": "--safe-area-inset-bottom",
+      "value": "0px"
+    },
+    {
+      "name": "--safe-area-inset-top",
+      "value": "0px"
+    },
+    {
+      "name": "--tw-outline-style",
+      "value": "solid"
+    },
+    {
+      "name": "--line-height-body",
+      "value": "1.875rem"
+    },
+    {
+      "name": "--text-5xl--line-height",
+      "value": "1"
+    },
+    {
+      "name": "--text-2xl--line-height",
+      "value": "calc(2/1.5)"
+    },
+    {
+      "name": "--leading-normal",
+      "value": "1.5"
+    },
+    {
+      "name": "--tw-inset-ring-shadow",
+      "value": "0 0 #0000"
+    },
+    {
+      "name": "--text-base--line-height",
+      "value": "calc(1.5/1)"
+    },
+    {
+      "name": "--spacing",
+      "value": ".25rem"
+    },
+    {
+      "name": "--tw-translate-z",
+      "value": "0"
+    },
+    {
+      "name": "--tw-gradient-via",
+      "value": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "name": "--tw-scale-y",
+      "value": "1"
+    },
+    {
+      "name": "--safe-area-inset-left",
+      "value": "0px"
+    },
+    {
+      "name": "--font-mono",
+      "value": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+    },
+    {
+      "name": "--toast-close-button-transform",
+      "value": "translate(-35%, -35%)"
+    },
+    {
+      "name": "--text-xl--line-height",
+      "value": "calc(1.75/1.25)"
+    },
+    {
+      "name": "--font-weight-semibold",
+      "value": "600"
+    },
+    {
+      "name": "--transition-ease",
+      "value": "cubic-bezier(.4,0,.2,1)"
+    },
+    {
+      "name": "--text-sm",
+      "value": ".875rem"
+    },
+    {
+      "name": "--tw-translate-y",
+      "value": "0"
+    },
+    {
+      "name": "--ease-out",
+      "value": "cubic-bezier(0,0,.2,1)"
+    },
+    {
+      "name": "--color-emerald-500",
+      "value": "lab(66.9756% -58.27 19.5419)"
+    },
+    {
+      "name": "--color-blue-500",
+      "value": "lab(54.1736% 13.3369 -74.6839)"
+    },
+    {
+      "name": "--color-nav-darker-container",
+      "value": "#212121"
+    },
+    {
+      "name": "--color-gray-900",
+      "value": "lab(8.11897% .811279 -12.254)"
+    },
+    {
+      "name": "--color-container",
+      "value": "#f4f4f4"
+    },
+    {
+      "name": "--border-angle",
+      "value": "0deg"
+    },
+    {
+      "name": "--blur-xl",
+      "value": "24px"
+    },
+    {
+      "name": "--tw-inset-shadow",
+      "value": "0 0 #0000"
+    },
+    {
+      "name": "--tw-ring-offset-color",
+      "value": "#fff"
+    },
+    {
+      "name": "--text-lg--line-height",
+      "value": "calc(1.75/1.125)"
+    },
+    {
+      "name": "--animate-spin",
+      "value": "spin 1s linear infinite"
+    },
+    {
+      "name": "--tw-gradient-from",
+      "value": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "name": "--color-white",
+      "value": "#fff"
+    },
+    {
+      "name": "--color-gray-400",
+      "value": "lab(65.9269% -.832707 -8.17473)"
+    },
+    {
+      "name": "--color-accent",
+      "value": "#1718fe"
+    },
+    {
+      "name": "--tw-shadow-alpha",
+      "value": "100%"
+    },
+    {
+      "name": "--tw-gradient-to",
+      "value": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "name": "--leading-tight",
+      "value": "1.25"
+    },
+    {
+      "name": "--color-gray-600",
+      "value": "lab(35.6337% -1.58697 -10.8425)"
+    },
+    {
+      "name": "--radius-sm",
+      "value": ".25rem"
+    },
+    {
+      "name": "--font-sans",
+      "value": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+    },
+    {
+      "name": "--text-4xl",
+      "value": "2.25rem"
+    },
+    {
+      "name": "--toast-button-margin-end",
+      "value": "0"
+    },
+    {
+      "name": "--tw-scale-z",
+      "value": "1"
+    },
+    {
+      "name": "--tw-border-style",
+      "value": "solid"
+    },
+    {
+      "name": "--font-weight-bold",
+      "value": "700"
+    },
+    {
+      "name": "--tracking-normal",
+      "value": "0em"
+    },
+    {
+      "name": "--color-gray-100",
+      "value": "lab(96.1596% -.0823438 -1.13575)"
+    },
+    {
+      "name": "--color-red-500",
+      "value": "lab(55.4814% 75.0732 48.8528)"
+    },
+    {
+      "name": "--color-background",
+      "value": "#fff"
+    },
+    {
+      "name": "--tw-shadow",
+      "value": "0 0 #0000"
+    },
+    {
+      "name": "--text-sm--line-height",
+      "value": "calc(1.25/.875)"
+    },
+    {
+      "name": "--tw-translate-x",
+      "value": "0"
+    },
+    {
+      "name": "--tw-ring-offset-width",
+      "value": "0px"
+    },
+    {
+      "name": "--tw-gradient-via-position",
+      "value": "50%"
+    },
+    {
+      "name": "--text-3xl--line-height",
+      "value": "calc(2.25/1.875)"
+    },
+    {
+      "name": "--text-5xl",
+      "value": "3rem"
+    },
+    {
+      "name": "--text-6xl",
+      "value": "3.75rem"
+    },
+    {
+      "name": "--text-3xl",
+      "value": "1.875rem"
+    },
+    {
+      "name": "--color-nav-text",
+      "value": "#101828"
+    },
+    {
+      "name": "--default-font-family",
+      "value": "ui-sans-serif,system-ui,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\""
+    },
+    {
+      "name": "--toast-svg-margin-end",
+      "value": "0px"
+    },
+    {
+      "name": "--font-weight-light",
+      "value": "300"
+    },
+    {
+      "name": "--text-xs--line-height",
+      "value": "calc(1/.75)"
+    },
+    {
+      "name": "--color-gray-border",
+      "value": "#c8c8c8"
+    },
+    {
+      "name": "--font-weight-medium",
+      "value": "500"
+    },
+    {
+      "name": "--tw-scale-x",
+      "value": "1"
+    },
+    {
+      "name": "--transition-fast",
+      "value": ".15s"
+    },
+    {
+      "name": "--text-xs",
+      "value": ".75rem"
+    },
+    {
+      "name": "--color-emerald-400",
+      "value": "lab(75.0771% -60.7313 19.4147)"
+    },
+    {
+      "name": "--font-weight-normal",
+      "value": "400"
+    },
+    {
+      "name": "--toast-icon-margin-end",
+      "value": "4px"
+    },
+    {
+      "name": "--tw-gradient-to-position",
+      "value": "100%"
+    },
+    {
+      "name": "--color-black",
+      "value": "#000"
+    },
+    {
+      "name": "--default-transition-duration",
+      "value": ".15s"
+    },
+    {
+      "name": "--tw-space-y-reverse",
+      "value": "0"
+    },
+    {
+      "name": "--text-6xl--line-height",
+      "value": "1"
+    },
+    {
+      "name": "--container-xl",
+      "value": "36rem"
+    },
+    {
+      "name": "--toast-icon-margin-start",
+      "value": "-3px"
+    },
+    {
+      "name": "--color-neutral-900",
+      "value": "lab(7.78201% -.0000149012 0)"
+    },
+    {
+      "name": "--text-4xl--line-height",
+      "value": "calc(2.5/2.25)"
+    },
+    {
+      "name": "--radius-lg",
+      "value": ".5rem"
+    },
+    {
+      "name": "--toast-svg-margin-start",
+      "value": "-1px"
+    },
+    {
+      "name": "--color-gray-text",
+      "value": "#878787"
+    },
+    {
+      "name": "--text-xl",
+      "value": "1.25rem"
+    },
+    {
+      "name": "--text-base",
+      "value": "1rem"
+    },
+    {
+      "name": "--tw-gradient-from-position",
+      "value": "0%"
+    },
+    {
+      "name": "--blur-sm",
+      "value": "8px"
+    },
+    {
+      "name": "--toast-button-margin-start",
+      "value": "auto"
+    },
+    {
+      "name": "--default-mono-font-family",
+      "value": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace"
+    },
+    {
+      "name": "--ease-in-out",
+      "value": "cubic-bezier(.4,0,.2,1)"
+    }
+  ],
+  "typography": {
+    "body": {
+      "background-color": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "font-family": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "font-size": "16px",
+      "font-weight": "400",
+      "line-height": "30px",
+      "letter-spacing": "normal"
+    },
+    "h1": {
+      "color": "rgb(255, 255, 255)",
+      "font-family": "rinter, \"rinter Fallback\"",
+      "font-size": "40px",
+      "font-weight": "500",
+      "line-height": "40px",
+      "letter-spacing": "-2px"
+    },
+    "h2": {
+      "color": "rgb(255, 255, 255)",
+      "font-family": "rinter, \"rinter Fallback\"",
+      "font-size": "30px",
+      "font-weight": "400",
+      "line-height": "33px",
+      "letter-spacing": "-1.5px"
+    },
+    "p": {
+      "color": "rgb(168, 162, 157)",
+      "font-family": "\"Source Code Pro\", \"Source Code Pro Fallback\"",
+      "font-size": "12px",
+      "font-weight": "400",
+      "line-height": "18px",
+      "letter-spacing": "-0.36px",
+      "text-transform": "uppercase"
+    }
+  },
+  "nav": {
+    "nav": {
+      "position": "fixed",
+      "top": "0px",
+      "left": "0px",
+      "right": "0px",
+      "width": "390px",
+      "height": "77px"
+    },
+    "navRect": {
+      "width": 390,
+      "height": 77,
+      "top": 0
+    },
+    "container": {
+      "background-color": "oklab(0 0 0 / 0.4)",
+      "border-bottom-color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+      "border-bottom-width": "1px",
+      "padding-left": "12px",
+      "padding-right": "12px",
+      "backdrop-filter": "blur(16px)"
+    }
+  },
+  "navLinks": [
+    {
+      "text": "Cases",
+      "href": "/en/cases"
+    },
+    {
+      "text": "Services",
+      "href": "/en/services"
+    },
+    {
+      "text": "About Us",
+      "href": "/en/about-us"
+    },
+    {
+      "text": "Contact",
+      "href": "/en/contact"
+    },
+    {
+      "text": "BOOK A CALL",
+      "href": "/en/contact"
+    }
+  ],
+  "sections": [
+    {
+      "idx": 0,
+      "tag": "section",
+      "className": "relative max-lg:pt-[80px] max-lg:pb-[40px] lg:min-h-screen  overflow-hidden bg-black",
+      "heading": "The space between creativity and code",
+      "rect": {
+        "top": 0,
+        "height": 800
+      },
+      "computed": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "80px",
+        "paddingRight": "0px",
+        "paddingBottom": "40px",
+        "paddingLeft": "0px"
+      }
+    },
+    {
+      "idx": 1,
+      "tag": "section",
+      "className": "flex flex-col gap-[70px] items-center justify-center bg-black section-padding-top-only",
+      "heading": null,
+      "rect": {
+        "top": 800,
+        "height": 204
+      },
+      "computed": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "0px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 2,
+      "tag": "section",
+      "className": "bg-black !px-[12px] md:!px-6 lg:!px-8 !pt-[60px] !pb-[80px] md:!pt-[100px] md:!pb-[120px] lg:!pt-[150px] lg:!pb-[150px] flex flex-col gap-[30px] md:gap-[40px] lg:gap-[50px] items-center justify-center lg:min-h-screen",
+      "heading": "The agency that gives your brand the support it’s been looking for",
+      "rect": {
+        "top": 1004,
+        "height": 563
+      },
+      "computed": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "80px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 3,
+      "tag": "section",
+      "className": "section-padding-top-only flex flex-col gap-[30px] lg:gap-[70px] items-center justify-center px-[12px] lg:px-16 bg-white",
+      "heading": "Impact you can feel",
+      "rect": {
+        "top": 1567,
+        "height": 509
+      },
+      "computed": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "0px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 4,
+      "tag": "section",
+      "className": "section-padding flex flex-col gap-12 md:gap-16 lg:gap-20 items-center justify-center bg-white",
+      "heading": "Creativity",
+      "rect": {
+        "top": 2076,
+        "height": 1854
+      },
+      "computed": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "60px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 5,
+      "tag": "section",
+      "className": "bg-black flex items-start justify-between section-padding relative lg:min-h-screen",
+      "heading": "Expertise that performs",
+      "rect": {
+        "top": 3930,
+        "height": 587
+      },
+      "computed": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "60px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 6,
+      "tag": "section",
+      "className": "relative flex flex-col gap-[30px] lg:gap-[70px] w-full max-w-[1500px] mx-auto overflow-hidden section-padding-top-only bg-white",
+      "heading": "Featured cases",
+      "rect": {
+        "top": 4517,
+        "height": 838
+      },
+      "computed": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "0px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 7,
+      "tag": "section",
+      "className": "flex flex-col gap-[30px] lg:gap-[70px] section-padding w-full flex flex-col items-center justify-center bg-white",
+      "heading": "The drive behind everything we build",
+      "rect": {
+        "top": 5355,
+        "height": 1372
+      },
+      "computed": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "60px",
+        "paddingLeft": "12px"
+      }
+    },
+    {
+      "idx": 8,
+      "tag": "section",
+      "className": "relative overflow-hidden bg-black",
+      "heading": "A framework that drives excellence",
+      "rect": {
+        "top": 6727,
+        "height": 957
+      },
+      "computed": {
+        "backgroundColor": "rgb(0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px"
+      }
+    },
+    {
+      "idx": 9,
+      "tag": "section",
+      "className": "section-padding flex items-center justify-between gap-[70px] bg-white",
+      "heading": "Ready to create impact that lasts?",
+      "rect": {
+        "top": 7684,
+        "height": 1053
+      },
+      "computed": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "paddingTop": "60px",
+        "paddingRight": "12px",
+        "paddingBottom": "60px",
+        "paddingLeft": "12px"
+      }
+    }
+  ],
+  "footerText": "NAVIGATION\n\nHOME\nSERVICES\nCASES\nABOUT\nCONTACT\n\nHEADQUARTERS\n\nVOLMERLAAN 5\n2288GC\nRIJSWIJK, ZH\nTHE NETHERLANDS\n\nSUPPORT\n\nMON-FRI 9AM - 6PM\n\nLEGAL\n\nPRIVACY POLICY\nTERMS & CONDITIONS\n\nREACH OUT\n\nHELLO@HATAMEX.AGENCY\n\n©2025 HATAMEX DIGITAL AGENCY ALL RIGHTS RESERVED"
+}

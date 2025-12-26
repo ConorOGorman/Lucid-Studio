@@ -1,0 +1,21 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "steps": [
+    {
+      "step": "activateTheme",
+      "themeFolderName": "lucid-hatamex-clone-theme"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Hatamex",
+        "blogdescription": ""
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "$home_id = wp_insert_post([ 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => 'Home', 'post_name' => 'home' ]); update_option('show_on_front', 'page'); update_option('page_on_front', $home_id);"
+    }
+  ]
+}

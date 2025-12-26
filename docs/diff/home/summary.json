@@ -1,0 +1,70 @@
+{
+  "overall": {
+    "desktop": {
+      "mismatched": 1052,
+      "total": 15323040,
+      "percent": 0.006865478390710982
+    },
+    "laptop": {
+      "mismatched": 1011,
+      "total": 13748480,
+      "percent": 0.007353540173168234
+    },
+    "tablet": {
+      "mismatched": 417,
+      "total": 8077290,
+      "percent": 0.005162622612287042
+    },
+    "mobile": {
+      "mismatched": 542,
+      "total": 3643770,
+      "percent": 0.014874703946736484
+    }
+  },
+  "critical": {
+    "desktop": {
+      "headerTop120": {
+        "percent": 0
+      },
+      "heroFirstScreen": {
+        "percent": 0
+      },
+      "footerArea": {
+        "percent": 0
+      }
+    },
+    "laptop": {
+      "headerTop120": {
+        "percent": 0
+      },
+      "heroFirstScreen": {
+        "percent": 0
+      },
+      "footerArea": {
+        "percent": 0
+      }
+    },
+    "tablet": {
+      "headerTop120": {
+        "percent": 0
+      },
+      "heroFirstScreen": {
+        "percent": 0
+      },
+      "footerArea": {
+        "percent": 0
+      }
+    },
+    "mobile": {
+      "headerTop120": {
+        "percent": 0
+      },
+      "heroFirstScreen": {
+        "percent": 0
+      },
+      "footerArea": {
+        "percent": 0
+      }
+    }
+  }
+}

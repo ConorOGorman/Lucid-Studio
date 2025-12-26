@@ -1,0 +1,234 @@
+/*
+Token source of truth.
+
+Raw values (colors / sizes / easing / breakpoints) live in this file only.
+Evidence: docs/forensics/global.md and docs/forensics/raw/reference-*.json
+*/
+
+@font-face {
+	font-family: rinter;
+	font-display: swap;
+	font-weight: 400 900;
+	src: url(https://www.hatamex.agency/_next/static/media/Rinter-s.p.01abee16.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: plusJakartaSans;
+	font-display: swap;
+	font-weight: 400 900;
+	src: url(https://www.hatamex.agency/_next/static/media/PlusJakartaSans_Variable-s.p.f95c7fb9.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Source Code Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://www.hatamex.agency/_next/static/media/c9e42e3eae6237c2-s.p.24d96596.woff2) format("woff2");
+}
+
+:root {
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-background: #ffffff;
+	--color-accent: #1718fe;
+	--color-container: #f4f4f4;
+	--color-nav-darker-container: #212121;
+	--color-gray-text: #878787;
+	--color-gray-text-2: #4e4e4e;
+	--color-nav-text: #101828;
+	--color-gray-border: #c8c8c8;
+	--color-text-muted: #a8a29d;
+	--color-live: rgb(25, 211, 0);
+	--color-live-alpha: rgba(25, 211, 0, 0.4);
+	--color-white-20: oklab(0.999994 0.0000455678 0.0000200868 / 0.2);
+	--color-white-40: oklab(0.999994 0.0000455678 0.0000200868 / 0.4);
+	--color-google-blue: #4285F4;
+	--color-google-green: #34A853;
+	--color-google-yellow: #FBBC05;
+	--color-google-red: #EA4335;
+
+	--nav-bg: oklab(0 0 0 / 0.4);
+	--nav-border: oklab(0.999994 0.0000455678 0.0000200868 / 0.1);
+	--blur-nav: 16px;
+	--border-1: 1px;
+	--border-hairline: 0.5px;
+
+	--container-max: 1500px;
+	--gutter: 12px;
+
+	--space-12: 12px;
+	--space-14: 14px;
+	--space-16: 16px;
+	--space-18: 18px;
+	--space-30: 30px;
+	--space-40: 40px;
+	--space-50: 50px;
+	--space-60: 60px;
+	--space-63: 63px;
+	--space-64: 64px;
+	--space-70: 70px;
+	--space-80: 80px;
+	--space-100: 100px;
+	--space-120: 120px;
+	--space-150: 150px;
+	--space-170: 170px;
+
+	--radius-sm: 4px;
+	--radius-lg: 8px;
+	--radius-pill: 33554400px;
+
+	--font-body: plusJakartaSans, system-ui, -apple-system, "Segoe UI", sans-serif;
+	--font-title: rinter, system-ui, -apple-system, "Segoe UI", sans-serif;
+	--font-mono: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+	--type-body: 16px;
+	--line-height-body: 30px;
+
+	--type-mono-sm: 12px;
+	--type-mono-md: 14px;
+	--line-height-mono: 21px;
+	--tracking-mono: -0.42px;
+	--tracking-mono-sm: -0.36px;
+
+	--type-hero: 40px;
+	--line-height-hero: 1;
+	--tracking-hero: -2px;
+	--weight-hero: 500;
+
+	--type-h2: 30px;
+	--line-height-h2: 33px;
+	--tracking-h2: -1.5px;
+	--weight-h2: 400;
+
+	--type-hero-lede: 14px;
+	--line-height-hero-lede: 19.6px;
+
+	--cta-height: 40px;
+	--cta-font-size: 12px;
+	--cta-padding-y: 8px;
+	--cta-padding-x: 16px;
+	--cta-letter-spacing: var(--tracking-mono-sm);
+	--cta-primary-bg: var(--color-accent);
+	--cta-primary-text: var(--color-black);
+	--cta-secondary-bg: var(--color-white);
+	--cta-secondary-text: var(--color-black);
+	--cta-secondary-border: oklab(0 0 0 / 0.2);
+	--cta-secondary-padding-x: 30px;
+
+	--nav-lang-height: 46px;
+	--nav-lang-padding-x: 16px;
+	--nav-lang-font-size: 14px;
+	--nav-lang-letter-spacing: var(--tracking-mono);
+	--nav-lang-active-bg: var(--color-white);
+	--nav-lang-active-text: var(--color-black);
+	--nav-lang-inactive-bg: rgba(0, 0, 0, 0);
+	--nav-lang-inactive-text: var(--color-white);
+
+	--nav-cta-height: 54px;
+	--nav-cta-padding-y: 15px;
+	--nav-cta-padding-x: 28px;
+	--nav-cta-font-size: 14px;
+	--nav-cta-letter-spacing: var(--tracking-mono);
+	--nav-cta-bg: var(--color-accent);
+	--nav-cta-text: var(--color-white);
+
+	--motion-duration-fast: 150ms;
+	--motion-duration-med: 300ms;
+	--motion-duration-slow: 2000ms;
+	--motion-duration-reveal: 900ms;
+	--motion-delay-reveal: 300ms;
+	--motion-ease-standard: cubic-bezier(.4,0,.2,1);
+	--motion-ease-in-out: ease-in-out;
+	--motion-reveal-y: 24px;
+	--motion-stagger: 80ms;
+	--motion-stagger-reveal: 120ms;
+
+	--header-height: 92px;
+	--header-height-compact: 77px;
+
+	--nav-row-padding-y: 18px;
+	--nav-logo-gap: 6.249px;
+	--nav-left: 0;
+	--nav-width: 100%;
+	--nav-transform: none;
+	--nav-links-display: none;
+	--nav-menu-display: inline-flex;
+	--nav-inner-border: none;
+	--nav-inner-border-bottom: var(--border-1) solid var(--nav-border);
+
+	--logo-mark-w-sm: 34.365px;
+	--logo-mark-h-sm: 21.204px;
+	--logo-type-w-sm: 127.395px;
+	--logo-type-h-sm: 21.299px;
+
+	--logo-mark-w-lg: 47px;
+	--logo-mark-h-lg: 29px;
+	--logo-type-w-lg: 149.528px;
+	--logo-type-h-lg: 25px;
+	--logo-mark-w: var(--logo-mark-w-sm);
+	--logo-mark-h: var(--logo-mark-h-sm);
+	--logo-type-w: var(--logo-type-w-sm);
+	--logo-type-h: var(--logo-type-h-sm);
+
+	--hero-rule-w-sm: 71px;
+	--hero-rule-w-lg: 200px;
+	--hero-rule-w: var(--hero-rule-w-sm);
+
+	--hero-dot-outer: 14px;
+	--hero-dot-inner: 7.1048px;
+
+	--rating-badge-border: 0.5px;
+	--rating-badge-size: 24px;
+	--rating-badge-padding: 4px;
+	--rating-google-icon-w: 14px;
+	--rating-google-icon-h: 20px;
+	--rating-label-size-sm: 11px;
+	--rating-label-size-lg: 13px;
+	--rating-label-size: var(--rating-label-size-sm);
+	--rating-star-size: 13px;
+	--rating-gap: 12px;
+	--rating-subgap: 6px;
+	--rating-stars-gap: 5px;
+
+	--layout-hero-direction: column;
+	--layout-hero-copy-max: 100%;
+}
+
+	@media (min-width: 1024px) {
+		:root {
+		--nav-left: 50%;
+		--nav-width: auto;
+		--nav-transform: translateX(-50%);
+			--nav-links-display: flex;
+			--nav-menu-display: none;
+			--nav-inner-border: var(--border-1) solid var(--nav-border);
+			--nav-inner-border-bottom: var(--border-1) solid var(--nav-border);
+			--hero-rule-w: var(--hero-rule-w-lg);
+			--rating-label-size: var(--rating-label-size-lg);
+			--logo-mark-w: var(--logo-mark-w-lg);
+			--logo-mark-h: var(--logo-mark-h-lg);
+			--logo-type-w: var(--logo-type-w-lg);
+			--logo-type-h: var(--logo-type-h-lg);
+
+			--gutter: 64px;
+		--type-hero: 70px;
+		--line-height-hero: 66.5px;
+		--tracking-hero: -3.5px;
+
+		--type-h2: 55px;
+		--line-height-h2: 60.5px;
+		--tracking-h2: -2.75px;
+
+		--layout-hero-direction: row;
+		--layout-hero-copy-max: 535px;
+
+		--type-hero-lede: 20px;
+		--line-height-hero-lede: 20px;
+
+		--cta-height: 54px;
+		--cta-font-size: 14px;
+		--cta-padding-y: 15px;
+		--cta-letter-spacing: var(--tracking-mono);
+	}
+}

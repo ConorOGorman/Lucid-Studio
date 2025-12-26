@@ -1,0 +1,45 @@
+
+> lucid-studio@1.0.0 wp:serve
+> wp-playground-cli server --port=9400 --php=8.3 --mount-dir ./wp-content/themes/lucid-hatamex-clone-theme /wordpress/wp-content/themes/lucid-hatamex-clone-theme --blueprint ./scripts/playground/blueprint.json --blueprint-may-read-adjacent-files
+
+Starting a PHP server...
+Starting up workers
+Resolved WordPress release URL: https://downloads.w.org/release/wordpress-6.9.zip
+Fetching SQLite integration plugin...
+Booting WordPress...
+PHP.request() is deprecated. Please use new PHPRequestHandler() instead.
+Booted!
+Running the Blueprint...
+Finished running the blueprint
+Preparing workers...
+WordPress is running on http://127.0.0.1:9400 with 1 worker(s)
+
+Error [RuntimeError]: Aborted(). Build with -sASSERTIONS for more info.
+    at abort (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/node-8-5/asyncify/php_8_5.js:320:11)
+    at __abort_js (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/node-8-5/asyncify/php_8_5.js:8820:25)
+    at php.wasm.abort (wasm://wasm/php.wasm-07769b4e:wasm-function[32648]:0x119be48)
+    at php.wasm.zend_mm_panic (wasm://wasm/php.wasm-07769b4e:wasm-function[9076]:0x55d718)
+    at php.wasm._efree (wasm://wasm/php.wasm-07769b4e:wasm-function[9166]:0x563655)
+    at php.wasm.php_fopen_primary_script (wasm://wasm/php.wasm-07769b4e:wasm-function[8442]:0x4e435e)
+    at php.wasm.dynCall_ii (wasm://wasm/php.wasm-07769b4e:wasm-function[37302]:0x1247790)
+    at Object.wrapper [as ii] (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/node-8-5/asyncify/php_8_5.js:18169:13)
+    at invoke_ii (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/node-8-5/asyncify/php_8_5.js:34685:25)
+    at php.wasm.wasm_sapi_handle_request (wasm://wasm/php.wasm-07769b4e:wasm-function[11982]:0x6b8d3c) {
+  originalErrorClassName: 'RuntimeError',
+  cause: Error: Comlink method call failed
+      at Object.deserialize (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:3948:48)
+      at fromWireValue (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:3467:43)
+      at async Object.handleRequest (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@wp-playground/cli/run-cli-pLJHMn5d.js:1160:14)
+      at async file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@wp-playground/cli/run-cli-pLJHMn5d.js:152:11
+}
+Aborted()
+Error: The script path "/wordpress/index.php" does not exist.
+    at file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:1409:15
+    at async file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:1983:14 {
+  originalErrorClassName: 'Error',
+  cause: Error: Comlink method call failed
+      at Object.deserialize (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:3948:48)
+      at fromWireValue (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@php-wasm/universal/index.js:3467:43)
+      at async Object.handleRequest (file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@wp-playground/cli/run-cli-pLJHMn5d.js:1160:14)
+      at async file:///Users/conorogorman/Documents/LucidStudio's%20/Lucid%20Studio/node_modules/@wp-playground/cli/run-cli-pLJHMn5d.js:152:11
+}

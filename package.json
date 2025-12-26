@@ -4,13 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npm run wp:serve",
+    "ref:forensics": "node scripts/reference/forensics.mjs",
+    "ref:extract": "node scripts/reference/extract-reference-markup.mjs",
+    "ref:screenshots": "node scripts/reference/screenshots.mjs --url=https://www.hatamex.agency/en --outDir=docs/reference/home",
+    "ref:sync": "node scripts/reference/sync-reference-markup.mjs",
+    "ref:fonts": "node scripts/reference/sync-reference-fonts.mjs",
+    "wp:serve": "node scripts/playground/serve.mjs",
+    "wp:stop": "node scripts/playground/stop.mjs",
+    "build:screenshots": "node scripts/reference/screenshots.mjs --url=http://127.0.0.1:9400/?preview=1 --outDir=docs/build/home",
+    "diff:home": "node scripts/diff/home.mjs",
+    "test": "npm run diff:home"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@wp-playground/cli": "^3.0.33",
     "pixelmatch": "^7.1.0",
     "playwright": "^1.57.0",
     "pngjs": "^7.0.0"
